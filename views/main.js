@@ -9,15 +9,7 @@ function view (state, emit) {
 
   return html`
     <body class="sans-serif">
-      <h1 class="f-headline pa3 pa4-ns">
-        Choo choo!
-      </h1>
-
-      <div class="ph3 ph4-ns">
-        <p>Current number of clicks: ${state.totalClicks}</p>
-
-        <button class="f5 dim br-pill ph3 pv2 mb2 dib white bg-hot-pink bn pointer" onclick=${handleClick}>Click Me!</button>
-      </div>
+      <p>Changing the background color in ./styles/_base.scss should be reflected on the dev server, but instead you have to change/re-save ./styles/main.scss for it to take effect</p>
     </body>
   `
 

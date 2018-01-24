@@ -1,17 +1,2 @@
 # scsstest
-A very cute app
-
-## Routes
-Route              | File               | Description                     |
--------------------|--------------------|---------------------------------|
-`/`              | `views/main.js`  | The main view
-`/*`             | `views/404.js`   | Display unhandled routes
-
-## Commands
-Command                | Description                                      |
------------------------|--------------------------------------------------|
-`$ npm start`        | Start the development server
-`$ npm test`         | Lint, validate deps & run tests
-`$ npm run build`    | Compile all files into `dist/`
-`$ npm run create`   | Generate a scaffold file
-`$ npm run inspect`  | Inspect the bundle's dependencies
+Reproducing an issue with Bankai/Sheetify where changing CSS values in a nested/@imported .scss file are not reflected on the dev server unless the main parent .scss file is updated/forced-saved.

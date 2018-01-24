@@ -2,7 +2,7 @@ var css = require('sheetify')
 var choo = require('choo')
 var store = require('./stores/clicks')
 
-css('tachyons')
+css('./styles/main.scss')
 
 var app = choo()
 if (process.env.NODE_ENV !== 'production') {
